@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "nexa";
+    font-weight: 500;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    height: 80%;
+    width: 70%;
+    background-color: blueviolet;
+    border-radius: 25px;
+    overflow: hidden;
+}
+#ptop{
+    width: 100%;
+    height: 18%;
+    background-color: #610DBA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.elem{
+    width: 8%;
+    height: 20%;
+    background-color: #FFDA00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333333;
+    
+}
+#pbtm{
+    background-color:  blueviolet;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap:5px;
+    
+}
+
+.bubble{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFDA00;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #610DBA;
+    cursor: pointer;
+}
+
